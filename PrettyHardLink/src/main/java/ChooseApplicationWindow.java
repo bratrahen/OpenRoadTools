@@ -9,9 +9,9 @@ import org.eclipse.swt.widgets.Shell;
 
 import java.util.Collection;
 
-public class ChooseApplicationWindow {
+class ChooseApplicationWindow {
 
-    private Shell shell;
+    private final Shell shell;
     private List list;
     private String result = "unknown";
 
